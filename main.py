@@ -333,7 +333,7 @@ def start_the_graph():
                                               height / 2 - int(''.join(text2.split())[2:]) / 10 * k),
                                              (weight / 2 + int(''.join(text3.split())[2:]) // 100 * k,
                                               height / 2 + int(''.join(text2.split())[2:]) / 10 * k),
-                                             (weight / 2 - int(''.join(text3.split())[2:]) // 100 * k, height / 2),
+                                             (weight / 2 - int(''.join(text4.split())[2:]) // 100 * k, height / 2),
                                              (weight / 2 + int(''.join(text3.split())[2:]) // 100 * k,
                                               height / 2 - int(''.join(text2.split())[2:]) / 10 * k * 2))
 
@@ -345,7 +345,7 @@ def start_the_graph():
                                          3)
 
                             pg.draw.line(screen, (0, 0, 80),
-                                         [weight / 2 - int(''.join(text3.split())[2:]) // 100 * k, height / 2],
+                                         [weight / 2 - int(''.join(text4.split())[2:]) // 100 * k, height / 2],
                                          [weight / 2 + int(''.join(text3.split())[2:]) // 100 * k,
                                           height / 2 - int(''.join(text2.split())[2:]) / 10 * k * 2],
                                          3)
